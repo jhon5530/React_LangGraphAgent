@@ -22,5 +22,5 @@ def run_agent_reasoning(state: MessagesState) -> MessagesState:
     
     return {"messages": [response]}
 
-tool_node = ToolNode(tools)
+
 
